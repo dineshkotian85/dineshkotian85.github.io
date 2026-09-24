@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh Keshav Kotian - Mobile Apps Portfolio</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 950px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f6f9;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+        h1 { margin: 0; color: #1a73e8; font-size: 2rem; }
+        .dev-link { color: #1a73e8; font-size: 0.95rem; display: inline-block; margin-top: 8px; text-decoration: none; font-weight: 500; }
+        .dev-link:hover { text-decoration: underline; }
+        
+        /* Contact Info Section inside Header */
+        .contact-info {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px dashed #e0e0e0;
+            font-size: 0.9rem;
+            color: #5f6368;
+        }
+        .contact-info a { color: #333; text-decoration: none; font-weight: 500; }
+        .contact-info a:hover { color: #1a73e8; text-decoration: underline; }
+        .bullet-separator { margin: 0 10px; color: #ccc; }
+
+        .apps-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        @media(min-width: 650px) {
+            .apps-container { grid-template-columns: 1fr 1fr; }
+        }
+        .app-card {
+            background: #ffffff;
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-top: 5px solid #1a73e8;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .app-title { font-size: 1.25rem; font-weight: 700; color: #202124; margin-bottom: 8px; }
+        .app-desc { color: #5f6368; font-size: 0.95rem; margin-bottom: 15px; flex-grow: 1; }
+        .store-button-container { margin: 10px 0 15px 0; }
+        .play-store-btn {
+            display: inline-block;
+            background-color: #01875f;
+            color: white !important;
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none !important;
+            font-size: 0.88rem;
+            font-weight: 600;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: background-color 0.2s;
+        }
+        .play-store-btn:hover { background-color: #006648; }
+        .links { border-top: 1px solid #f1f3f4; padding-top: 12px; }
+        .links a {
+            text-decoration: none;
+            color: #1a73e8;
+            margin-right: 15px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        .links a:hover { text-decoration: underline; }
+        footer { text-align: center; margin-top: 40px; padding: 20px; color: #70757a; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dinesh Keshav Kotian</h1>
+        <p style="margin: 5px 0 10px 0; color: #5f6368;">Official Developer Portal for Android Applications</p>
+        <a class="dev-link" href="https://google.com" target="_blank" rel="noopener noreferrer">
+            View Official Google Play Profile &rarr;
+        </a>
+        
+        <!-- Global Developer Contact Details -->
+        <div class="contact-info">
+            <span>Email: <a href="mailto:dksoft.mobapps@gmail.com">dksoft.mobapps@gmail.com</a></span>
+            <span class="bullet-separator">&bull;</span>
+            <span>Hotline: <a href="tel:+918454852909">+91 84548 52909</a></span>
+        </div>
+    </header>
+
+    <main class="apps-container">
+        <!-- App 1 -->
+        <div class="app-card">
+            <div>
+                <div class="app-title">mStock Manager</div>
+                <p class="app-desc">Manage stock & inventory, buy & sell stocks, calculate average cost pricing, and evaluate metrics entirely offline.</p>
+            </div>
+            <div>
+                <div class="store-button-container">
+                    <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="play-store-btn">Get it on Google Play</a>
+                </div>
+                <div class="links">
+                    <a href="./mstock-manager/privacy.html">Privacy Policy</a>
+                    <a href="mailto:dksoft.mobapps@://gmail.com">Support Email</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- App 2 -->
+        <div class="app-card">
+            <div>
+                <div class="app-title">File Manager - Swipe & Delete</div>
+                <p class="app-desc">An interactive utility to quickly declutter your phone's storage using fluid swiping gestures.</p>
+            </div>
+            <div>
+                <div class="store-button-container">
+                    <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="play-store-btn">Get it on Google Play</a>
+                </div>
+                <div class="links">
+                    <a href="./file-manager/privacy.html">Privacy Policy</a>
+                    <a href="mailto:dksoft.mobapps@://gmail.com">Support Email</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- App 3 -->
+        <div class="app-card">
+            <div>
+                <div class="app-title">World Countries - Capital, Currency</div>
+                <p class="app-desc">Explore useful geographic facts, maps, flags, current populations, and currencies for global countries.</p>
+            </div>
+            <div>
+                <div class="store-button-container">
+                    <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="play-store-btn">Get it on Google Play</a>
+                </div>
+                <div class="links">
+                    <a href="./world-countries/privacy.html">Privacy Policy</a>
+                    <a href="mailto:dksoft.mobapps@://gmail.com">Support Email</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- App 4 -->
+        <div class="app-card">
+            <div>
+                <div class="app-title">Daily News 60</div>
+                <p class="app-desc">Stay informed efficiently with rapid news summaries capped at exactly 60 words.</p>
+            </div>
+            <div>
+                <div class="store-button-container">
+                    <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="play-store-btn">Get it on Google Play</a>
+                </div>
+                <div class="links">
+                    <a href="./daily-news-60/privacy.html">Privacy Policy</a>
+                    <a href="mailto:dksoft.mobapps@://gmail.com">Support Email</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- App 5 -->
+        <div class="app-card">
+            <div>
+                <div class="app-title">EMI Calculator - Personal Loan</div>
+                <p class="app-desc">Compute complex loan parameters, break down payment structures, and map interest projections instantly.</p>
+            </div>
+            <div>
+                <div class="store-button-container">
+                    <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="play-store-btn">Get it on Google Play</a>
+                </div>
+                <div class="links">
+                    <a href="./emi-calculator/privacy.html">Privacy Policy</a>
+                    <a href="mailto:dksoft.mobapps@://gmail.com">Support Email</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- App 6 -->
+        <div class="app-card">
+            <div>
+                <div class="app-title">Baby Names</div>
+                <p class="app-desc">Discover meaningful titles for newborns with filtered collections sorted by background and region.</p>
+            </div>
+            <div>
+                <div class="store-button-container">
+                    <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="play-store-btn">Get it on Google Play</a>
+                </div>
+                <div class="links">
+                    <a href="./baby-names/privacy.html">Privacy Policy</a>
+                    <a href="mailto:dksoft.mobapps@://gmail.com">Support Email</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- App 7 -->
+        <div class="app-card">
+            <div>
+                <div class="app-title">Promote your App, Video, Site</div>
+                <p class="app-desc">A discovery channel designed to extend promotional reach for diverse online assets and portfolios.</p>
+            </div>
+            <div>
+                <div class="store-button-container">
+                    <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="play-store-btn">Get it on Google Play</a>
+                </div>
+                <div class="links">
